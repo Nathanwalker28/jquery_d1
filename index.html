@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+    <style>
+        .alert {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+    <form action="">
+        <p></p>
+        <div class="field_input">
+            <input type="text" class="input" name="input_nombre_1" id="input_nombre_1" placeholder="votre premier nombre">
+        </div>
+        <div class="field_signe">
+            <select name="input_signe" id="input_signe">
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+            </select>
+        </div>
+        <div class="field_input">
+            <input type="text" class="input" name="input_nombre_2" id="input_nombre_2" placeholder="votre deuxième nombre">
+        </div>
+        <button type="submit">=</button>
+    </form>
+    <p>resultat : <span id="resultat"></span></p>
+    <script src="assets/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/script.js" type="text/javascript"></script>
+</body>
+</html>
